@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="COMP3512-A2/css-files/index.css">
+    <title>Browse / Search Results</title>
+</head>
+<body>
+
+    <article class="search-browse view">
+        <header class="parent">
+            <div class="child"><h2>Header</h2></div>
+            <!-- Make sure to have the credits do a drop down for the links -->
+            <!-- if <a> is inefficient, change to a button -->
+            <h3 class="child"><a href="">Credits</a> </h3>
+        </header>
+
+        <!-- SEARCH COLUMN -->
+        <div class="search column left">
+            <h2>Basic Song Search</h2>
+  
+
+            <input type="radio" title="title"><label>Title</label><input type="text" title="title">
+            <input type="radio" title="artist"><label>Artist</label><input type="text" title="artist">
+            <input type="radio" title="genre"><input type="radio" title="genre"><label>Genre</label>
+
+            <!-- Year scale -->
+            <input type="radio" title="year"><label>Year</label>
+            <label>From</label><input type="text" title="year-from">
+            <label>To</label><input type="text" title="year-to">
+
+            <!-- Popularity Scale -->
+            <input type="radio" title="year"><label>Popularity</label>
+            <label>From</label><input type="text" title="popularity-from">
+            <label>To</label><input type="text" title="popularity-to">
+        </div>
+
+        <!-- RESULT COLUMN -->
+        <div class="result column right">
+            <h2>Browse / Serach Results</h2>
+            <div class="label">
+                <h3>Title</h3>
+                <h3>Artist</h3>
+                <h3>Year</h3>
+                <h3>Genre</h3>
+                <h3>Popularity</h3>
+                <h3 id="add">Add (disable in css)</h3>
+            </div>
+            
+
+        </div>
+        <footer><h2>Footer</h2></footer>
+
+
+    </article>
+    
+</body>
+</html>
